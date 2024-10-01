@@ -72,8 +72,6 @@ function App() {
 
     return () => {};
   }, [ready]);
-    
-
 
 
   useEffect(() => {
@@ -101,19 +99,19 @@ function App() {
       </div>
       <div className="w-[500px] h-[400px] max-[500px]:w-[350px] flex justify-center items-center gap-5">
         <div className="w-[100px] h-[300px] bg-slate-800 rounded-xl flex flex-col justify-center items-center gap-3">
-          <div className={`w-[80px] h-[80px] rounded-full ${!ready && 'bg-slate-900'} ${!switchGreen ? red1 : green}`}></div>
-          <div className={`w-[80px] h-[80px] rounded-full ${!ready && 'bg-slate-900'} ${!switchGreen ? red2 : green}`}></div>
-          <div className={`w-[80px] h-[80px] rounded-full ${!ready && 'bg-slate-900'} ${!switchGreen ? red3 : green}`}></div>
+          <div className={`w-[80px] h-[80px] rounded-full ring-2 ring-white ${!ready && 'bg-slate-900'} ${!switchGreen ? red1 : green}`}></div>
+          <div className={`w-[80px] h-[80px] rounded-full ring-2 ring-white ${!ready && 'bg-slate-900'} ${!switchGreen ? red2 : green}`}></div>
+          <div className={`w-[80px] h-[80px] rounded-full ring-2 ring-white ${!ready && 'bg-slate-900'} ${!switchGreen ? red3 : green}`}></div>
         </div>
         <div className="w-[100px] h-[300px] bg-slate-800 rounded-xl flex flex-col justify-center items-center gap-3">
-          <div className={`w-[80px] h-[80px] rounded-full ${!ready && 'bg-slate-900'} ${!switchGreen ? red1 : green}`}></div>
-          <div className={`w-[80px] h-[80px] rounded-full ${!ready && 'bg-slate-900'} ${!switchGreen ? red2 : green}`}></div>
-          <div className={`w-[80px] h-[80px] rounded-full ${!ready && 'bg-slate-900'} ${!switchGreen ? red3 : green}`}></div>
+          <div className={`w-[80px] h-[80px] rounded-full ring-2 ring-white ${!ready && 'bg-slate-900'} ${!switchGreen ? red1 : green}`}></div>
+          <div className={`w-[80px] h-[80px] rounded-full ring-2 ring-white ${!ready && 'bg-slate-900'} ${!switchGreen ? red2 : green}`}></div>
+          <div className={`w-[80px] h-[80px] rounded-full ring-2 ring-white ${!ready && 'bg-slate-900'} ${!switchGreen ? red3 : green}`}></div>
         </div>
         <div className="w-[100px] h-[300px] bg-slate-800 rounded-xl  flex flex-col justify-center items-center gap-3">
-          <div className={`w-[80px] h-[80px] rounded-full ${!ready && 'bg-slate-900'} ${!switchGreen ? red1 : green}`}></div>
-          <div className={`w-[80px] h-[80px] rounded-full ${!ready && 'bg-slate-900'} ${!switchGreen ? red2 : green}`}></div>
-          <div className={`w-[80px] h-[80px] rounded-full ${!ready && 'bg-slate-900'} ${!switchGreen ? red3 : green}`}></div>
+          <div className={`w-[80px] h-[80px] rounded-full ring-2 ring-white ${!ready && 'bg-slate-900'} ${!switchGreen ? red1 : green}`}></div>
+          <div className={`w-[80px] h-[80px] rounded-full ring-2 ring-white ${!ready && 'bg-slate-900'} ${!switchGreen ? red2 : green}`}></div>
+          <div className={`w-[80px] h-[80px] rounded-full ring-2 ring-white ${!ready && 'bg-slate-900'} ${!switchGreen ? red3 : green}`}></div>
         </div>
       </div>
  
