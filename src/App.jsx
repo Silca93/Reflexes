@@ -111,7 +111,7 @@ function App() {
           </p>
         ) : (
           <>
-            <h1 className='text-xl font-semibold bg-slate-600 text-white border-[2px] p-3 border-white rounded-md'>Test your speed</h1>
+            <h1 className='text-xl font-semibold bg-slate-600 text-white border-[2px] p-3 border-white rounded-md mt-2'>Test your speed</h1>
             <div className='w-auto h-[6rem] bg-zinc-200  ring-gray-300 flex justify-center items-center p-3 rounded-lg'>
 
               <p className="font-semibold text-center">
@@ -129,12 +129,12 @@ function App() {
               :
               ""
             }
-            <div className="absolute bottom-8 flex ">
+            <div className="absolute bottom-6 flex ">
               <h1 className={`text-2xl font-bold text-center ${!ready ? 'hidden' : 'flex'}`}>
                 PRESS ANY KEY WHEN LIGHTS TURN
               </h1>
             </div>
-            <h1 className={`absolute bottom-0 text-2xl font-bold text-center ${!ready ? 'hidden' : ''}`}>
+            <h1 className={`absolute bottom-[-10px] text-2xl font-bold text-center ${!ready ? 'hidden' : ''}`}>
               <span className="animate-pulse text-green-500">GREEN...</span>
             </h1>
           </>
