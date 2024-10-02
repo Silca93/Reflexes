@@ -112,7 +112,7 @@ function App() {
         ) : (
           <>
             <h1 className='text-xl font-semibold bg-slate-600 text-white border-[2px] p-3 border-white rounded-md mt-2'>Test your speed</h1>
-            <div className='w-auto h-[6rem] bg-zinc-200  ring-gray-300 flex justify-center items-center p-3 rounded-lg'>
+            <div className='w-auto h-[5rem] bg-zinc-200  ring-gray-300 flex justify-center items-center p-3 rounded-lg'>
 
               <p className="font-semibold text-center">
                 As soon as the lights turn green, stop the counter as fast as you can.
@@ -129,7 +129,7 @@ function App() {
               :
               ""
             }
-            <div className="absolute bottom-6 flex ">
+            <div className="absolute bottom-4 flex ">
               <h1 className={`text-2xl font-bold text-center ${!ready ? 'hidden' : 'flex'}`}>
                 PRESS ANY KEY WHEN LIGHTS TURN
               </h1>
