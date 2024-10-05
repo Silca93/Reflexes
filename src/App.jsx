@@ -134,8 +134,8 @@ function App() {
                 PRESS ANY KEY WHEN LIGHTS TURN
               </h1>
             </div>
-            <h1 className={`absolute bottom-[-10px] text-2xl font-bold text-center ${!ready ? 'hidden' : ''}`}>
-              <span className="animate-pulse text-green-500">GREEN...</span>
+            <h1 className={`absolute bottom-[-13px] text-2xl font-bold text-center ${!ready ? 'hidden' : ''}`}>
+              <span className="animate-pulse text-green-500">GREEN</span>
             </h1>
           </>
         )}
